@@ -1,0 +1,24 @@
+# Sensitive data & Logs
+*.jsonl
+salon.db
+
+# Ollama models & keys (HUGE files + secrets)
+.ollama/
+
+# Vector DB & Cache
+chroma_db/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+*.key
+*.token
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

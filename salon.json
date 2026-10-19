@@ -1,0 +1,132 @@
+{
+  "_note": "SAMPLE DATA - replace names, prices, hours and deposit_percent with the real salon's. deposit_percent 0 = no online payment.",
+  "name": "سالن نمونه",
+  "address": "آدرس سالن را اینجا بنویسید",
+  "phone": "شماره تماس سالن را اینجا بنویسید",
+  "capacity": 2,
+  "deposit_percent": 30,
+  "hold_minutes": 15,
+  "cancellation_policy": "لغو یا تغییر نوبت تا ۴ ساعت قبل از زمان نوبت امکان‌پذیر است.",
+  "hours": {
+    "شنبه": [
+      "10:00",
+      "20:00"
+    ],
+    "یکشنبه": [
+      "10:00",
+      "20:00"
+    ],
+    "دوشنبه": [
+      "10:00",
+      "20:00"
+    ],
+    "سه‌شنبه": [
+      "10:00",
+      "20:00"
+    ],
+    "چهارشنبه": [
+      "10:00",
+      "20:00"
+    ],
+    "پنجشنبه": [
+      "10:00",
+      "16:00"
+    ],
+    "جمعه": null
+  },
+  "services": [
+    {
+      "name": "کوتاهی مو",
+      "keywords": [
+        "کوتاه",
+        "کوتاهی",
+        "اصلاح مو",
+        "مدل مو"
+      ],
+      "price_toman": 350000,
+      "duration_min": 45
+    },
+    {
+      "name": "رنگ مو",
+      "keywords": [
+        "رنگ",
+        "رنگ کردن",
+        "رنگ ریشه",
+        "دکلره"
+      ],
+      "price_toman": 1800000,
+      "duration_min": 120
+    },
+    {
+      "name": "مش و هایلایت",
+      "keywords": [
+        "مش",
+        "هایلایت",
+        "بالیاژ"
+      ],
+      "price_toman": 2500000,
+      "duration_min": 180
+    },
+    {
+      "name": "کراتینه مو",
+      "keywords": [
+        "کراتین",
+        "کراتینه",
+        "پروتئین",
+        "صاف کردن مو"
+      ],
+      "price_toman": 3000000,
+      "duration_min": 150
+    },
+    {
+      "name": "مانیکور",
+      "keywords": [
+        "مانیکور",
+        "ناخن دست"
+      ],
+      "price_toman": 400000,
+      "duration_min": 45
+    },
+    {
+      "name": "پدیکور",
+      "keywords": [
+        "پدیکور",
+        "ناخن پا"
+      ],
+      "price_toman": 500000,
+      "duration_min": 60
+    },
+    {
+      "name": "کاشت ناخن",
+      "keywords": [
+        "کاشت",
+        "ناخن مصنوعی",
+        "ژل",
+        "اکریلیک"
+      ],
+      "price_toman": 900000,
+      "duration_min": 90
+    },
+    {
+      "name": "اصلاح ابرو",
+      "keywords": [
+        "ابرو",
+        "اصلاح صورت",
+        "ابرو برداری"
+      ],
+      "price_toman": 150000,
+      "duration_min": 30
+    },
+    {
+      "name": "میکاپ",
+      "keywords": [
+        "میکاپ",
+        "آرایش",
+        "گریم",
+        "عروس"
+      ],
+      "price_toman": 1500000,
+      "duration_min": 90
+    }
+  ]
+}
