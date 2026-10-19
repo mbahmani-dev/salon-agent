@@ -30,3 +30,22 @@ Customer (Persian) ──▶ Engine (Python) ──▶ LLM (Ollama/GPT/Claude)
                             ├─▶ Tools (Booking, Catalog, RAG, Dates)
                             │
                             └─▶ Data (SQLite Database, ChromaDB, JSONL logs)
+🚀 Quick Start
+Install Ollama and a model:
+
+bash
+ollama pull qwen2.5:7b
+Install dependencies:
+
+bash
+pip install -r requirements.txt
+Run the agent:
+
+bash
+python engine.py salon
+👤 Author
+Mohammad Bahmani — AI Agent Developer
+LinkedIn · GitHub
+
+
+
